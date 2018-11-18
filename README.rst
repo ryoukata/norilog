@@ -58,5 +58,6 @@ Webブラウザーでコメントを投稿するアプリの練習
         $ python3.6 -m venv --clear venv
         $ source venv/bin/activate
         (venv) $ pip install -e ./norilog
+        (venv) $ pip freeze > requirements.txt
 
 3. setup.pyをリポジトリにコミットする
